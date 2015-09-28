@@ -1,0 +1,27 @@
+/*
+	HTML and Body Styles
+----------------------------------------------------------	*/
+
+html {
+}
+
+body {
+	text-align: left; /* for IE */
+	margin:5px;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:13px;
+	color:#303030;
+	background-color:#fff;
+}
+
+h1 {
+	font-size:200%;
+}
+
+h2 {
+	font-size:180%;
+}
+
+h3 {
+	font-size:150%;
+}

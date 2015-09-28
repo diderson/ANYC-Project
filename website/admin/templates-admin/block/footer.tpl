@@ -1,0 +1,1 @@
+<p class="f-left">&copy; {$smarty.now|date_format:"%Y"} {* {#clientName#|escape:"html"} *} ANC Research, All Rights Reserved &reg; {* Developed by <a href="javascript://" onclick="javascript: window.open('http://www.diderson.com/');">Diderson Baka</a>*}</p>

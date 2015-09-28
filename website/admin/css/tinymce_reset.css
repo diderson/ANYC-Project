@@ -1,0 +1,25 @@
+
+div#content table.edit tr td.tinymcy-editor table,
+.tinymcy-editor table {
+	border:1px solid #cfcfcf !important;
+	margin-bottom:5px !important;
+}
+
+div#content table.edit td.tinymcy-editor table th,
+.tinymcy-editor table th,
+div#content table.edit td.tinymcy-editor table tr,
+.tinymcy-editor table tr,
+div#content table.edit td.tinymcy-editor table td,
+.tinymcy-editor table td,
+div#content table.edit td.tinymcy-editor table tr, 
+.tinymcy-editor table tr, 
+div#content table.edit td.tinymcy-editor table th, 
+.tinymcy-editor table th, 
+div#content table.edit td.tinymcy-editor table td,
+.tinymcy-editor table td,
+div#content table.edit td.tinymcy-editor table table,
+.tinymcy-editor table table {
+	margin:0;
+	padding:1px !important;
+	border:0 !important;	
+}

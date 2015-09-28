@@ -1,0 +1,623 @@
+/*
+	Client Colors
+----------------------------------------------------------*/
+
+
+body {background-color:#eaeaea; color:#303030;font-family: Helvetica, Arial, sans-serif;}
+
+/*
+validation errors: #65b000
+link colors: #65b000
+65b000
+
+new colors
+d60b79
+
+*/
+
+
+/* WRITE YOUR CSS CODE HERE */
+
+span.cmstitle {
+	font-size:115%;	
+}
+
+#content .fixindex { height:300px;}
+#content .fixlist { height:350px;}
+
+#content h1 {
+	box-shadow:0px 0px 5px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);		
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius: 3px;	
+	text-shadow: 2px 2px 0px #000;		
+}
+
+#content {
+	min-height:550px;
+	height:auto !important;
+	height:550px;			
+}
+
+form {
+	display:inline;	
+}
+
+/*
+	Header
+----------------------------------------------------------*/
+
+p.header span.header-user { padding-right:15px; }
+p.header span.header-lastlogin { padding-right:15px; }
+p.header span.header-logout {}
+
+/*
+	Login Form
+----------------------------------------------------------*/
+
+#login p.login-title {
+	font-weight:bold;
+	text-align:center;
+	color:#303030;
+	font-size:large;
+	letter-spacing:.15em;	
+}
+
+#login .developedby {
+	font-size:89%;
+	float:right;
+	margin:2em .25em 1em 0;
+	color:#707070;
+}
+
+#login a {
+	color:#707070;	
+}
+
+
+form#loginform { border:0 !important; }
+
+form#loginform td.flabel {
+	padding:5px 15px 20px 5px !important;
+	font-weight:bold;
+	white-space:nowrap;
+	vertical-align:top;
+}
+
+form#loginform input.input-text {	
+	display:block;
+	border:1px solid #cccccc;
+	width:270px;
+	padding:4px !important;
+	padding:0;	
+	font-size:100%;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+/*
+	Generic form fields
+----------------------------------------------------------*/
+
+input, select, textarea {
+	font-size:100%;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+/*
+	Edit form
+----------------------------------------------------------*/
+
+/* div#formcontainer { min-width:700px; max-width:1200px; }*/
+
+div#formcontainer {
+	display:none;
+	width:100%;
+}
+form#editform table.edit { 
+border:0 !important; 
+}
+
+form#editform fieldset {
+	position:relative;
+	margin:10px 0; 
+	padding:15px 10px;
+	border:1px solid #ccc;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius: 3px;	
+	margin-bottom:40px;
+}
+
+form#editform fieldset legend {
+	font-size:120%; font-weight:bold;
+	padding:0 3px;
+}
+
+form#editform table.edit th, form#editform table.edit td {padding:10px 5px !important; border:0 !important; vertical-align:top;} 
+
+form#editform table.edit td.flabel {
+	padding:10px 14px 10px 5px !important;
+	font-weight:bold;
+	white-space:nowrap;	
+}
+
+form#editform table.edit td.finput { 
+	padding:10px 5px 0px 5px !important;	
+}
+
+form#editform table.edit td.finput label {
+	line-height:22px;
+}
+
+form#editform table.edit td.finput p { 
+	width:400px;
+	font-size:12px;	
+}
+
+form#editform table.edit .buttons { 
+	padding:10px 0px !important;	
+}
+
+form#editform table.edit td.cdate {
+	text-align:left;
+	font-size:90%;
+	font-weight:normal;
+	line-height:18px;
+}
+
+form#editform table.edit div.uploadbuttons	{
+	padding:10px 0;
+}
+
+form#editform table.edit div.imagecontainer {
+	font-size:100%;	
+	width:300px;
+	padding:5px 0 10px 0;
+}
+
+form#editform table.edit div.filecontainer {
+	font-size:100%;	
+	width:300px;
+	padding:5px 0 10px 0;
+}
+
+form#editform table.edit input.input-text {
+	border:1px solid #cccccc;
+	width:280px;
+	padding:4px !important;
+	padding:0;	
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+form#editform table.edit input.input-file {
+	border:1px solid #cccccc;
+	width:342px;
+	padding:4px !important;
+	padding:0;	
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+form#editform table.edit input.input-text-long {
+	border:1px solid #cccccc;
+	width:450px;
+	padding:4px !important;
+	padding:0;	
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+form#editform table.edit input.input-date, input.dp-applied {		
+	border:1px solid #cccccc;
+	width:100px;
+	padding:4px !important;
+	padding:0;	
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+form#editform table.edit input.input-number {		
+	border:1px solid #cccccc;
+	width:125px;
+	padding:4px !important;
+	padding:0;	
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+form#editform table.edit input.input-money {		
+	border:1px solid #cccccc;
+	width:125px;
+	padding:4px !important;
+	padding:0;	
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+form#editform input.input-date {
+	border:1px solid #cccccc;
+	width:100px;
+	padding:4px !important;
+	padding:0;	
+	font-family:Helvetica, Arial, sans-serif;
+	color:#000;	
+}
+
+form#editform table.edit textarea.input-textarea {
+	padding:4px !important;
+	margin:0;
+	border:1px solid #cccccc;
+	width:350px;
+	height:150px;
+	color:#000;	
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+form#editform table.edit textarea.input-textfieldtarea {
+	padding:0 !important;
+	margin:0;
+	border:1px solid #cccccc;
+	width:350px;
+	height:20px;
+	color:#000;	
+	font-family:Helvetica, Arial, sans-serif;
+
+}
+
+form#editform table.edit select.input-select, select {
+	border:1px solid #cccccc;
+	padding:4px 4px 4px 0px;
+	font-size:100%;
+	font-family:Helvetica, Arial, sans-serif;	
+	color:#000;	
+}
+
+form#editform table.edit select.input-select option {
+	padding-right:9px;
+}
+
+form#editform table.edit select.input-selectmulitple {
+	border:1px solid #cccccc;
+	padding:7px;
+	font-family:Helvetica, Arial, sans-serif;
+	color:#000;
+}
+
+form#editform table.edit input.input-radio {
+	margin:0 7px 7px 7px; 
+	font-family:Helvetica, Arial, sans-serif;
+	color:#000;	
+}
+
+form#editform table.edit input.input-checkbox {
+	margin:0 7px 7px 7px; 
+	font-family:Helvetica, Arial, sans-serif;
+	color:#000;	
+}
+
+form#editform table.edit input.input-submit {
+}
+
+input.button {
+	border:1px solid #303030;
+	color:#fff;
+	background-color:#303030;
+	padding:5px; 
+	margin:0 0px 0 10px;
+	font-size:120%;
+	cursor:pointer;
+	box-shadow:0px 0px 5px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);		
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius: 3px;	
+	text-shadow: 2px 2px 0px #000;	
+}
+
+input:hover.button,
+input:hover.button-search-controller,
+input:hover.button-search {
+	/* background-color:#4c4c4c; */
+	color:#0066CC;
+}
+
+input.button-search-controller {
+	border:1px solid #303030;
+	color:#fff;
+	background-color:#303030;
+	padding:2px 3px; 
+	margin:0 0px 0 15px;
+	font-size:85%;
+	cursor:pointer;
+	box-shadow:0px 0px 5px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);		
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius: 3px;	
+	text-shadow: 2px 2px 0px #000;		
+}
+
+
+input.button-search {
+	border:1px solid #303030;
+	color:#fff;
+	width:50px;	
+	background-color:#303030;
+	padding:2px 8px;
+	margin:4px 10px 4px 0;
+	font-size:85%;
+	cursor:pointer;
+	box-shadow:0px 0px 5px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);		
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius: 3px;	
+	text-shadow: 2px 2px 0px #000;		
+}
+
+input.small-button {
+	border:1px solid #303030;
+	color:#fff;
+	background-color:#303030;
+	padding:5px; 
+	margin:0 5px 0 0px;
+	font-size:90%;
+	cursor:pointer;
+	box-shadow:0px 0px 5px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);		
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius: 3px;	
+	text-shadow: 2px 2px 0px #000;		
+}
+
+/*
+	Validation Error Styles
+----------------------------------------------------------*/
+
+label.validate-error {	
+	display:block;
+	color:#0066cc;
+	padding:0;
+	font-weight:normal;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+input.error, 
+input.error, 
+input.input-err, 
+input.validate-error, 
+textarea.validate-error,
+input.validate-error, 
+select.validate-error {	
+	border:1px solid #73a531;
+	/*background-color:#e8e8e8; */
+	color:#0066cc;
+}
+
+div.validate_error {
+	padding:.3em 0 1.2em 0;
+	display:block;
+	clear:both;
+}
+
+/*
+	Table sorter styles
+----------------------------------------------------------*/
+/* #content table.tablesorter { min-width:300px; border:0; width:100%; max-width:1200px; }*/
+#content table.tablesorter { border:0; width:100%; }
+#content table.tablesorter tr.row0, tr.row0 {}
+#content table.tablesorter tr.row1, tr.row1 { background-color:#ededed;}
+#content table.tablesorter tr.rowhover, tr.rowhover { background-color:#d2d2d2;}
+#content table.tablesorter th { white-space:nowrap; border:1px solid #cfcfcf; }
+#content table.tablesorter th.actionheader { white-space:nowrap;  width:70px;}
+#content table.tablesorter td.actions { white-space:nowrap; text-align:center;}
+
+#content table.tablesorter th a, #content table.tablesorter th a:visited {
+	color:#fff;
+	text-decoration:none;
+}
+
+#content table.tablesorter th a:hover {
+	color:#fff;
+	text-decoration:underline;
+}
+
+#content table.tablesorter td {
+	vertical-align:top;
+	text-align:left;
+}
+
+
+form#editform .tinymce_image {
+	max-width:600px;
+}
+
+
+#content table.tablesorter th.headerSortUp, #content table.tablesorter th.headerSortDown {background-color:#003366;}
+
+form#editform table.edit tr.shipping-row {
+	display:none;
+}
+
+#content .status-button {
+	font-weight:bold;
+	font-size:80%;
+	text-transform:uppercase;
+	
+}
+
+#content .status-text {
+	white-space:nowrap;
+	font-size:95%;
+}
+
+/*
+	List Form styles
+----------------------------------------------------------*/
+
+form#listform tr.search-row {
+	display:none;
+	background-color:#e2e3e3;
+}
+
+.search-row .text {
+	font-size:85%;	
+}
+
+form#listform tr.search-row td {
+	vertical-align:bottom;
+	text-align:left;
+	border:none;
+	background-color:#fff;		
+}
+
+form#listform input.input-text-search {
+	border:1px solid #cccccc;
+	width:100px;
+	padding:2px !important;
+	padding:0;		
+	margin:3px 3px 3px 0 !important;
+	margin:0;			
+	font-size:85%;
+	font-family:"arial", sans-serif;
+	vertical-align:top;	
+	margin-top:5px;
+}
+
+form#listform input.input-text-search-small {
+	border:1px solid #cccccc;
+	width:30px;
+	padding:2px !important;
+	padding:0;		
+	margin:3px 3px 3px 0 !important;
+	margin:0;			
+	font-size:85%;
+	font-family:"arial", sans-serif;
+	vertical-align:top;	
+	margin-top:5px;	
+}
+
+form#listform input.input-text-search-date {
+	border:1px solid #cccccc;
+	width:120px;
+	padding:2px !important;
+	padding:0;		
+	margin:3px 3px 3px 0 !important;
+	margin:0;			
+	font-size:85%;
+	font-family:"arial", sans-serif;
+	vertical-align:top;	
+	margin-top:5px;	
+}
+
+form#listform input.input-text-search-datepicker {
+	border:1px solid #cccccc;
+	width:60px;
+	padding:2px !important;
+	padding:0;		
+	margin:3px 3px 3px 0 !important;
+	margin:0;			
+	font-size:85%;
+	font-family:"arial", sans-serif;
+	vertical-align:top;	
+	margin-top:5px;	
+}
+
+form#listform select.input-select-search {
+	border:1px solid #cccccc;
+	padding:2px !important;
+	padding:0;	
+	font-size:85%;
+	font-family:"arial", sans-serif;
+	color:#000;	
+}
+
+form#listform input.input-radio {
+	border:1px solid #cccccc;
+	padding:3px; 
+	font-size:85%;
+	font-family:"arial", sans-serif;
+	color:#000;	
+}
+
+form#listform input.input-radio-search {
+	padding:3px; 
+	font-size:85%;
+	font-family:"arial", sans-serif;
+	color:#000;	
+	margin-left:5px;
+}
+
+form#listform select.input-select-search option {
+	padding-right:9px;
+}
+
+form#listform p.select-pagesize {
+	padding-left:15px;
+	font-size:90%;
+	font-family:"arial", sans-serif;
+	color:#000;		
+}
+form#listform select#select-pagesize {
+	border:1px solid #cccccc;
+	padding:3px 3px 3px 0px;
+	font-size:100%;
+	font-family:"arial", sans-serif;
+	color:#000;	
+}
+
+
+/*
+	Tabs
+----------------------------------------------------------*/
+
+
+/*
+	Create new button
+----------------------------------------------------------*/
+div#create_button,
+div#export_button {
+	padding:0px 0px 0px 35px;
+	float:left;
+	line-height:20px;
+}
+
+div#create_button img,
+div#export_button img{
+	vertical-align:middle;
+	padding:0px 3px 0px 0px;
+}
+
+
+/*
+	Create new button
+----------------------------------------------------------*/
+div.action_icons {
+}
+
+div.action_icons img {
+	padding-right:10px;
+}
+
+/*
+	Maps
+----------------------------------------------------------*/
+#map_canvas{
+	margin:0 0 20px 0px;
+	width:900px;
+	height:400px;
+}
+
+
+/*
+	Overide TinyMCE styles
+----------------------------------------------------------*/
+.mceEditor {
+	min-height:70px;
+	height:auto !important;
+	height:70px;	
+	display:inline-block;
+	overflow:auto;	
+}

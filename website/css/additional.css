@@ -1,0 +1,251 @@
+.contact_widget_phone > span,
+.contact_widget_email > span {width: 1%;}
+
+#box_color_1 {background-color: #56cce1;}
+#box_color_2 {background-color: #2cbfd9;}
+#box_color_3 {background-color: #2ca6d9;}
+#box_color_4 {background-color: #1b90da;}
+
+.content_icon.icon-glyph-2:before{color:#2ca6d9;}
+.content_icon.icon-glyph-3:before{color:#2cbfd9;}
+.content_icon.icon-glyph-4:before{color:#2ca6d9;}
+.content_icon.icon-glyph-5:before{color:#2cbfd9;}
+
+#text-2 .textwidget h1,
+#text-2 .textwidget h4 {
+    text-align:center;
+}
+#text-2 .textwidget h1 {color:#1b90da;}
+#text-2 .textwidget h4 {color:#898989;}
+
+.post.type-post.one_fourth .cmsms_post_type_img > img {
+    width:130px; 
+    height:130px;
+}
+
+.type-testimonial img.type-testimonial {
+    width:60px; 
+    height:60px;
+}
+
+.textwidget #pb_35 {padding-bottom:35px;}
+
+
+/* override 4 box home page by diderson */
+#box_color_1 {background-color: #7fc64f;}
+#box_color_2 {background-color: #66b72f;}
+#box_color_3 {background-color: #4aaf05;}
+#box_color_4 {background-color: #3c8e04;}
+
+.content_icon.icon-glyph-2:before{color:#4aaf05;}
+.content_icon.icon-glyph-3:before{color:#66b72f;}
+.content_icon.icon-glyph-4:before{color:#4aaf05;}
+.content_icon.icon-glyph-5:before{color:#66b72f;}
+
+/* twitter bottom */
+#cmsms_latest_bottom_tweets{
+	background-color: #4aaf05;
+	background-color: #f00700;
+}
+
+#cmsms_latest_bottom_tweets .cmsms_content_prev_slide, #cmsms_latest_bottom_tweets .cmsms_content_next_slide {
+	background-color: #4aaf05;
+	background-color: #f00700;
+	border-color: #fff;
+}
+
+/* ===================> Navigation Hover Background Colors <================== */
+
+#navigation > li:hover > a, 
+#navigation > li:hover > a:hover, 
+#navigation > li.current_page_item > a, 
+#navigation > li.current_page_ancestor > a, 
+#navigation > li.current-menu-ancestor > a,
+.related_posts ul > li > a.current,
+.tabs > li.current a, 
+.tour  > li a:hover, 
+.tour  > li.current a {
+	background-color: #4aaf05;
+}
+
+#navigation > li + li:hover > a, 
+#navigation > li + li:hover > a:hover, 
+#navigation > li + li.current_page_item > a, 
+#navigation > li + li.current_page_ancestor > a, 
+#navigation > li + li.current-menu-ancestor > a,
+.related_posts ul > li + li > a.current,
+.tabs > li + li.current a,
+.tour  > li + li a:hover,
+.tour  > li + li.current a {
+	background-color: #4aaf05;
+}
+
+#navigation > li + li + li:hover > a, 
+#navigation > li + li + li:hover > a:hover, 
+#navigation > li + li + li.current_page_item > a, 
+#navigation > li + li + li.current_page_ancestor > a, 
+#navigation > li + li + li.current-menu-ancestor > a,
+.related_posts ul > li + li + li > a.current,
+.tabs > li + li + li.current a,
+.tour  > li + li + li a:hover, 
+.tour  > li + li + li.current a,
+.table thead th,
+span.dropcap {
+	background-color:#4aaf05;
+}
+
+#navigation > li + li + li + li:hover > a, 
+#navigation > li + li + li + li:hover > a:hover, 
+#navigation > li + li + li + li.current_page_item > a, 
+#navigation > li + li + li + li.current_page_ancestor > a, 
+#navigation > li + li + li + li.current-menu-ancestor > a,
+.related_posts ul > li + li + li + li > a.current,
+.tabs > li + li + li + li.current a, 
+.tour  > li + li + li + li a:hover, 
+.tour  > li + li + li + li.current a {
+	background-color:#4aaf05;
+}
+
+#navigation > li + li + li + li + li:hover > a, 
+#navigation > li + li + li + li + li:hover > a:hover, 
+#navigation > li + li + li + li + li.current_page_item > a, 
+#navigation > li + li + li + li + li.current_page_ancestor > a, 
+#navigation > li + li + li + li + li.current-menu-ancestor > a,
+.related_posts ul > li + li + li + li + li > a.current,
+.tabs > li + li + li + li + li.current a,
+.tour  > li + li + li + li + li a:hover, 
+.tour  > li + li + li + li + li.current a {
+	background-color:#4aaf05;
+}
+
+#navigation > li + li + li + li + li + li:hover > a, 
+#navigation > li + li + li + li + li + li:hover > a:hover, 
+#navigation > li + li + li + li + li + li.current_page_item > a, 
+#navigation > li + li + li + li + li + li.current_page_ancestor > a, 
+#navigation > li + li + li + li + li + li.current-menu-ancestor > a,
+.related_posts ul > li + li + li + li + li + li > a.current,
+.tabs > li + li + li + li + li + li.current a, 
+.tour  > li + li + li + li + li + li a:hover, 
+.tour  > li + li + li + li + li + li.current a {
+	background-color:#4aaf05;
+}
+
+#navigation > li + li + li + li + li + li + li:hover > a, 
+#navigation > li + li + li + li + li + li + li:hover > a:hover,
+#navigation > li + li + li + li + li + li + li.current_page_item > a, 
+#navigation > li + li + li + li + li + li + li.current_page_ancestor > a, 
+#navigation > li + li + li + li + li + li + li.current-menu-ancestor > a,
+.related_posts ul > li + li + li + li + li + li + li > a.current,
+.tabs > li + li + li + li + li + li + li.current a,
+.tour  > li + li + li + li + li + li + li a:hover, 
+.tour  > li + li + li + li + li + li + li.current a {
+	background-color:#4aaf05;
+}
+
+#navigation > li + li + li + li + li + li + li + li:hover > a, 
+#navigation > li + li + li + li + li + li + li + li:hover > a:hover, 
+#navigation > li + li + li + li + li + li + li + li.current_page_item > a, 
+#navigation > li + li + li + li + li + li + li + li.current_page_ancestor > a, 
+#navigation > li + li + li + li + li + li + li + li.current-menu-ancestor > a,
+.related_posts ul > li + li + li + li + li + li + li + li > a.current,
+.tabs > li + li + li + li + li + li + li + li.current a, 
+.tour  > li + li + li + li + li + li + li + li a:hover, 
+.tour  > li + li + li + li + li + li + li + li.current a {
+	background-color:#4aaf05;
+}
+
+#navigation > li + li + li + li + li + li + li + li + li:hover > a, 
+#navigation > li + li + li + li + li + li + li + li + li:hover > a:hover, 
+#navigation > li + li + li + li + li + li + li + li + li.current_page_item > a, 
+#navigation > li + li + li + li + li + li + li + li + li.current_page_ancestor > a, 
+#navigation > li + li + li + li + li + li + li + li + li.current-menu-ancestor > a,
+.related_posts ul > li + li + li + li + li + li + li + li + li > a.current,
+.tabs > li + li + li + li + li + li + li + li + li.current a, 
+.tour  > li + li + li + li + li + li + li + li + li a:hover, 
+.tour  > li + li + li + li + li + li + li + li + li.current a {
+	background-color:#4aaf05;
+}
+
+#navigation > li + li + li + li + li + li + li + li + li + li:hover > a, 
+#navigation > li + li + li + li + li + li + li + li + li + li:hover > a:hover, 
+#navigation > li + li + li + li + li + li + li + li + li + li.current_page_item > a, 
+#navigation > li + li + li + li + li + li + li + li + li + li.current_page_ancestor > a, 
+#navigation > li + li + li + li + li + li + li + li + li + li.current-menu-ancestor > a,
+.related_posts ul > li + li + li + li + li + li + li + li + li + li > a.current,
+.tabs > li + li + li + li + li + li + li + li + li + li.current a, 
+.tour  > li + li + li + li + li + li + li + li + li + li a:hover, 
+.tour  > li + li + li + li + li + li + li + li + li + li.current a {
+	background-color:#4aaf05;
+}
+
+/* ===================> widgettitle Background Colors <================== */
+.bg_color_1, h3:after, input#submit:hover, .button:hover, .button_small:hover, .button_medium:hover, .button_large:hover, .button.current, .button_small.current, .button_medium.current, .button_large.current, .responsive_nav span, .responsive_nav span:before, .responsive_nav span:after, .tabs li.current a, .cmsms_sitemap > li > a:after, .s_cat_filter.button_small:hover, .s_sort a.button_small:hover, .s_cat_filter.button_small.current, .s_sort a.button_small.current, .cmsms_pricing_table .pricing_footer .pricing_button:hover, .comment-reply-link:hover, #cancel-comment-reply-link:hover, .s_filter_container:hover .s_cat_filter.button_small, .tog:hover .cmsms_plus span, .tog.current .cmsms_plus, .cmsms_post_format_img, .format-quote blockquote:before, ul li a.page-numbers:hover, #cmsms_latest_bottom_tweets, .wrap_person .cmsms_link:hover, .wrap_person .cmsms_link:before, .wrap_person .cmsms_link > span:before, .wrap_person .cmsms_link > span:after, .testimonial blockquote:after, .widget .tl-content:after, .cmsms_latest_bottom_tweets_inner .cmsms_content_prev_slide, .cmsms_latest_bottom_tweets_inner .cmsms_content_next_slide, .cmsms_content_prev_slide:active, .cmsms_content_next_slide:active, .cmsms_content_slider_parent ul.cmsms_slides_nav li.active a, .tp-bullets.simplebullets.round .bullet:hover, .tp-bullets.simplebullets.round .bullet.selected{
+	background-color: #f00700 !important;
+}
+
+/* accordion style */
+
+.productlistUl, .accordion ul{
+  width: 100%;
+}
+.productlistUl a{
+  color: #191919;
+  font-size: 16px;
+  padding: 5px 0 5px 5px;
+}
+
+.productlistUl li{
+  padding: 10px 0 10px 5px;
+  border-bottom: 2px solid #D4D4D4;
+  }
+
+  .productlistUl .odd {
+    background-color:#F1F2F2; 
+}
+
+.productlistUl li a:hover {
+  text-decoration: underline;
+}
+
+
+/*list of product table*/
+
+.listofproduct{
+  margin-bottom:18px;
+  width:99%;
+  border: 1px solid #ebecec;
+  margin-left:1px;
+  color: #000;
+
+}
+
+.listofproduct td{
+  padding-left: 5px;
+}
+
+.listofproduct td a, 
+.listofproduct tr th a {
+  color: #666666;
+}
+
+
+
+.listofproduct td a:hover, 
+.listofproduct tr th a:hover {
+  color: #666666;
+  text-decoration: underline;
+}
+
+.listofproduct tbody > tr td {border-top:1px solid #ebecec;}
+.listofproduct td:last-child, .listofproduct tr th:last-child {
+border: 1px solid #ebecec;
+}
+
+.table td, 
+.table tr th {
+  border: 1px solid #ebecec;
+  }
+
+.prodnamecap{
+  text-transform: uppercase;
+}

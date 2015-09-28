@@ -1,0 +1,85 @@
+body {
+
+    background-color: #000;
+    font-size: 13px;
+}
+
+.action_icons img{
+	padding-right: 15px;
+}
+
+#page-wrapper{
+	
+}
+
+/* top navbar */
+.navbar-fixed-top{
+	/*background-image:url(../design/bg-cyan.jpg);*/
+	background-color: #000 !important;
+	color: #fff;
+}
+
+.navbar-brand{
+	color: #fff !important;
+}
+
+/* side bar with menu */
+.sidebar-collapse{
+	background-color: #000 !important;
+}
+
+.panel-default>.panel-heading{
+	/*background-color: #000 !important;
+	border-color:#000;*/	
+}
+
+.nav .active-menu {
+text-decoration: none;
+background-color: #eee;
+}
+
+/* header for the tables*/
+thead .header{
+	background-color: #000 !important;
+	color: #fff;
+}
+
+/* the sorting icons */
+table.dataTable thead .sorting:after{
+	color: #fff;
+}
+/*ERROR HANDELING CLASS*/
+.validate-error{
+	color: #F00;
+	font-style: normal;
+	font-size: 12px;
+}
+
+#editform .error{
+	color: #F00;
+	font-style: normal;
+	font-size: 12px;	
+}
+
+.center{
+	text-align: center;
+}
+
+#footer{
+	color: #FFF;
+	font-style: normal;
+	font-size: 10px;
+	text-align: center;
+}
+
+.nav > li > a {
+   color: #ffbf00;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	color: #000;
+}
+
+.nav .active-menu a{
+	color: #000 !important;
+}

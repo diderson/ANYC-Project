@@ -1,0 +1,9 @@
+# Turn on Expires and set default to 0
+ExpiresActive On
+ExpiresDefault A0
+
+<FilesMatch "\.(gif|jpg|jpeg|png|swf)$">
+	#4 weeks
+	ExpiresDefault A2419200
+	Header append Cache-Control "public"
+</FilesMatch>

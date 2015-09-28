@@ -1,0 +1,1 @@
+<script type="text/javascript" src="/components/min/?b=admin/js&amp;f=jquery/ui.core.js,jquery/jquery.validate/jquery.validate.pack.js,jquery/jquery.switcher.js,jquery/ui.tabs.js,jquery/jquery.dotimeout/jquery.ba-dotimeout.min.js,admin.skipjack.js"></script>

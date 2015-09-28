@@ -1,0 +1,23 @@
+#content form#editform table.invoice_numbers,
+#content form#editform table.invoice_numbers tr,
+#content form#editform table.invoice_numbers td {
+	border:0 !important; }
+}
+
+#content form#editform table.invoice_numbers td.flabel {
+	padding:10px 14px 10px 5px !important;
+	font-weight:bold;
+	white-space:nowrap;	
+}
+
+form#editform table.invoice_numbers td.finput { 
+	padding:10px 5px 0px 5px !important;	
+}
+
+#content form#editform table.invoice_numbers input.input-money,
+#content form#editform table.invoice_numbers input.input-number  {
+	text-align:right !important;
+}
+
+#content table.tablesorter th,
+#content table.tablesorter tbody { font-size:90%; }
